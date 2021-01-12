@@ -26,9 +26,9 @@ module.exports = {
     ],
   },
   plugins: [
-    // new CopyWebpackPlugin({
-    //   patterns: [{ from: 'assets/', to: 'assets/', context: buildPath }],
-    // }),
+    new CopyWebpackPlugin({
+      patterns: [{ from: 'assets/', to: 'assets/', context: buildPath }],
+    }),
   ],
   // モジュールとして扱いたいファイルの拡張子を指定する
   // 例えば「import Foo from './foo'」という記述に対して"foo.ts"という名前のファイルをモジュールとして探す

@@ -1,9 +1,14 @@
 import 'phaser';
 
 const config: Phaser.Types.Core.GameConfig = {
+  parent: 'game',
   type: Phaser.AUTO,
-  width: 800,
-  height: 600,
+  scale: {
+    mode: Phaser.Scale.FIT,
+    autoCenter: Phaser.Scale.CENTER_VERTICALLY,
+    width: 800,
+    height: 600,
+  },
   physics: {
     default: 'arcade',
     arcade: {
@@ -11,7 +16,6 @@ const config: Phaser.Types.Core.GameConfig = {
       debug: true,
     },
   },
-  parent: 'game',
   scene: {
     preload: preload,
     create: create,

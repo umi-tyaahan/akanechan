@@ -1,3 +1,9 @@
+アカネチャンカワイイヤッタークエストのリポジトリです。
+
+# demo
+
+https://umi-tyaahan.github.io/akanechan/
+
 # development environment
 
 Phaser + TypeScript + webpack 環境

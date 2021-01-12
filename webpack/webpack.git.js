@@ -10,7 +10,7 @@ module.exports = merge(common, {
   output: {
     // モジュールバンドルを行った結果を出力する場所やファイル名の指定
     // "__dirname"はこのファイルが存在するディレクトリを表すnode.jsで定義済みの定数
-    path: path.join(__dirname, 'docs'),
+    path: path.resolve(__dirname, '../docs'),
     filename: 'js/bundle.js'
   },
 

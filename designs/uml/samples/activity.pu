@@ -1,0 +1,12 @@
+@startuml
+!include inc/settings.pu
+
+title アクティビティ図
+
+start
+if (おなかすいた？) then (すいた)
+  :おやつたべる;
+endif
+end
+
+@enduml

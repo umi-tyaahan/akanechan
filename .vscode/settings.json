@@ -1,0 +1,11 @@
+{
+  "plantuml.exportFormat": "png",
+  "plantuml.diagramsRoot": "designs/uml",
+  "plantuml.exportOutDir": "designs/uml/out",
+  "plantuml.exportSubFolder": false,
+  "plantuml.commandArgs": [
+  
+  ],
+
+
+}

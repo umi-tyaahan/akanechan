@@ -1,0 +1,12 @@
+@startuml
+!include inc/settings.pu
+
+Activate 母
+母 ->> 息子: おきなさい！
+母 ->> 息子: おきなさい！
+母 ->> 息子: おきなさい！
+Activate 息子
+息子 ->> 母: おきたー
+Deactivate 息子
+母 ->> 息子: 二度寝するな！
+@enduml

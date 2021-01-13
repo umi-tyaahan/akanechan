@@ -1,0 +1,9 @@
+@startuml
+!include inc/settings.pu
+
+state 状態1: 状態1の解説
+state 状態2: 状態2の解説
+
+状態1 --> 状態2: 状態1から2への\n遷移条件
+状態2 --> 状態1: 状態2から1への\n遷移条件
+@enduml

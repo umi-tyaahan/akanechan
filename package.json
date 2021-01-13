@@ -6,8 +6,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config ./webpack/webpack.prod.js",
-    "gitbuild": "webpack --config ./webpack/webpack.git.js",
+    "build": "webpack --config ./webpack/webpack.git.js",
     "dev": "webpack --config ./webpack/webpack.dev.js",
     "start": "webpack-cli serve --config ./webpack/webpack.dev.js"
   },

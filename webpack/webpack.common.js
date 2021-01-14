@@ -7,7 +7,8 @@ const target = 'akanechan';
 // const target = 'sandbox';
 
 const buildPath = path.resolve(__dirname, `../src/${target}/`);
-const outputPath = path.resolve(__dirname, '../public/');
+// const outputPath = path.resolve(__dirname, '../public/');
+const outputPath = path.resolve(__dirname, '../docs/');
 
 module.exports = {
   // エントリポイント 依存関係整理の起点にするファイル
